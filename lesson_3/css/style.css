@@ -24,5 +24,14 @@ div.text2 {
     color: indianred;
 }
 
+.lesson > p {
+    color: blue;
+}
 
+.lesson ~ h {
+    color: black;
+}
 
+.lesson + p {
+    color: burlywood;
+}
