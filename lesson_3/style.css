@@ -1,0 +1,37 @@
+@import url("reset.css");
+
+h4 {
+    color: darkslategray;
+}
+
+.lesson { 
+    color: chartreuse;
+}
+
+ #some-id {  
+    color: darkgreen;
+}
+
+div.text1 {
+    color: red;
+}
+
+div.text2 {
+   color: blueviolet;
+}
+
+.link a {
+    color: indianred;
+}
+
+.lesson > p {
+    color: blue;
+}
+
+.lesson ~ h2 {
+    color: black;
+}
+
+.lesson + p {
+   color: maroon;
+}
