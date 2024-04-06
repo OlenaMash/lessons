@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Exo:regular,700" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:regular,500" rel="stylesheet" >
+    <link rel="stylesheet" href="css/style.css">
+    <title>lesson_8</title>
+</head>
+
+<body>       
+<header class="header">
+    <div>
+        <ul>
+            <li>
+                <a href="#section-1">Урок8</a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<main>
+<div class="conteiner">
+ <img src="img/roomoptjpgwebp.webp" alt=""> 
+ <img src="img/room2x.jpg" alt="">
+ <img src="img/room4x.jpg" alt="">
+
+ <img srcset="img/room2x.jpg 2x, img/room4x.jpg 4x" src="img/roomoptjpg.jpg" alt="">
+ 
+ <picture>
+    <source srcset="img/room2x.jpg 2x, img/room4x.jpg 4x">
+    <img src="img/roomoptjpg.jpg" alt="">
+ </picture>
+</div>
+<div class="conteiner1">
+    <div class="content">
+    <h1>Контент, растрове, png~webp</h1>
+    <img src="img/handpngoptwebp.webp" alt="#">
+    </div>
+    <div class="content1">
+    <h2>Контент,векторне,svg</h2>
+    <img src="img/phonesvg.svg" alt="#">
+    <img src="img/cardsvg.svg" alt="#">
+    <img src="img/cashsvg.svg" alt="#">
+    <img src="img/paysvg.svg" alt="#">
+    <img src="img/citysvg.svg" alt="#">
+    <img src="img/partsvg.svg" alt="#">
+    <img src="img/marksvg.svg" alt="#">
+    </div>
+    <div class="content2">
+    <h2>Іконка,векторне,svg</h2>
+    <ul class="list">
+        <li class="list_item">
+            Як повернути або обміняти замовлення
+        </li>
+        <li class="list_item">
+            Чи можна повернути/обміняти товар, якщо втрачено чек?
+        </li>
+        <li class="list_item">
+            В який термін будуть повернуті гроші?
+        </li>
+        <li class="list_item">
+            Чи можна повернути кошти на іншу карту?
+        </li>
+    </ul>
+    <h2>Для різної щільності пікселів</h2>
+    <img srcset="img/hand2xpngopt.webp 2x, img/hand4xpngopt.webp 4x" src="img/handpngopt.png" alt="#">
+    </div>
+</div>
+</main>
+<footer>
+    <p>
+        Контакти
+    </p>
+    <ul>
+        <li>
+            <a href="contacts.html">Мої контакти</a>
+        </li>
+    </ul>
+</footer>
+</body>
+</html>
