@@ -282,9 +282,6 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
 }
-.main-section__items > * {
-    margin-bottom: 10px;
-}
 .main-section__items > *:last-child {
     margin-bottom: 0px;
 }
@@ -347,7 +344,7 @@ body {
     width: 100%;
     display: flex;
     position: relative;
-    max-width: 623px;
+    max-width: 260px;
     box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
@@ -408,9 +405,6 @@ p {
     display: inline-flex;   
     flex-wrap: wrap;
     flex-grow: 1;   
-}
-.next-section__items>* {
-    margin-bottom: 10px;
 }
 
 .next-section__items>*:last-child {
